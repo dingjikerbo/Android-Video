@@ -1,0 +1,5 @@
+
+
+- 视频播放全部竖着，然后自动缩放
+- opengl坐标变换
+- outputSurface

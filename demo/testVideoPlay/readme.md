@@ -1,0 +1,10 @@
+
+首先有一个surfaceView，给它的surface作为MediaCodec的输出surface，创建一个线程，
+
+创建一个extractor，一个codec, 首先从codec中获取buffer，从extractor中extract内容填充到buffer里，buffer再还给codec，codec输出到surface上显示出来。
+
+queueInputBuffer的时候会带一个presentationTime
+
+注意，每次codec输入一个buffer，就要输出一个buffer，这两个是同步的，不是异步相互独立的两个线程。
+
+这里面还有一个SpeedController控制播放速度，只有releaseOutputBuffer才会给buffer推送到surface上显示出来。
