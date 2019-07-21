@@ -14,12 +14,12 @@ public class CopyRender {
 
     private static final String VERTEX_SHADER =
             "attribute vec4 a_Position;\n" +
-                    "attribute vec4 a_TextureCoordinates;\n" +
+                    "attribute vec2 a_TextureCoordinates;\n" +
                     "varying vec2 v_TextureCoordinates;\n" +
                     "\n" +
                     "void main() {\n" +
                     "    gl_Position =  a_Position;\n" +
-                    "    v_TextureCoordinates = a_TextureCoordinates.xy;\n" +
+                    "    v_TextureCoordinates = a_TextureCoordinates;\n" +
                     "}";
 
     private static final String FRAGMENT_SHADER =

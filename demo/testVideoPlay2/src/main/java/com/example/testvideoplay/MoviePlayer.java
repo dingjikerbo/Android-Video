@@ -3,6 +3,7 @@ package com.example.testvideoplay;
 import android.media.MediaCodec;
 import android.media.MediaExtractor;
 import android.opengl.EGLContext;
+import android.opengl.GLES20;
 import android.os.Environment;
 import android.util.Log;
 
@@ -14,6 +15,7 @@ import java.nio.ByteBuffer;
 
 import inuker.com.library.MediaFormat;
 import inuker.com.library.Utils;
+import inuker.com.library.gles.GlUtil;
 
 public class MoviePlayer {
 
@@ -29,10 +31,14 @@ public class MoviePlayer {
     private EGLContext mSharedContext;
     private CodecOutputSurface mOutputSurface;
 
-    public MoviePlayer(File sourceFile, EGLContext sharedContext) {
+    private int mOffscreenTexture;
+    private int mFramebuffer;
+
+    public MoviePlayer(File sourceFile, EGLContext sharedContext, int texture) {
         mSourceFile = sourceFile;
         mSharedContext = sharedContext;
         mSpeedController = new SpeedController();
+        mOffscreenTexture = texture;
         Log.v(TAG, String.format("create MoviePlayer: %s", mSourceFile.getAbsolutePath()));
 
         mImageDirs = new File(Environment.getExternalStorageDirectory(), "images");
@@ -47,8 +53,6 @@ public class MoviePlayer {
     }
 
     interface MoviePlayListener {
-        void onOutputSurfaceCreated(int texture);
-
         void onDrawAvailable();
     }
 
@@ -99,8 +103,7 @@ public class MoviePlayer {
 
                 // 这里可以直接传surfaceView的surface，这里传一个离线的pbuffer，处理之后再渲染到surfaceView上
                 mOutputSurface = new CodecOutputSurface(mSharedContext, width, height);
-
-                mMoviePlayListener.onOutputSurfaceCreated(mOutputSurface.getTextureId());
+                prepareFramebuffer(width, height);
 
                 decoder.configure(mediaFormat.get(), mOutputSurface.getSurface(), null, 0);
                 decoder.start();
@@ -205,27 +208,90 @@ public class MoviePlayer {
 
                         if (doRender) {
                             outputSurface.awaitNewImage();
+
+                            GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, mFramebuffer);
+                            GlUtil.checkGlError("glBindFramebuffer");
+
                             outputSurface.drawImage(true);
+
+                            // Blit to display.
+                            GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, 0);
 
                             mMoviePlayListener.onDrawAvailable();
 
-                            if (decodeCount < MAX_FRAMES) {
-                                File outputFile = new File(mImageDirs,
-                                        String.format("frame-%02d.png", decodeCount));
-                                long startWhen = System.nanoTime();
-                                outputSurface.saveFrame(outputFile.toString());
-                                Log.v("bush", String.format("saveFrame %d: %s", decodeCount, outputFile));
-                                frameSaveTime += System.nanoTime() - startWhen;
-                            }
-                            decodeCount++;
+//                            if (decodeCount < MAX_FRAMES) {
+//                                File outputFile = new File(mImageDirs,
+//                                        String.format("frame-%02d.png", decodeCount));
+//                                long startWhen = System.nanoTime();
+//                                outputSurface.saveFrame(outputFile.toString());
+//                                Log.v("bush", String.format("saveFrame %d: %s", decodeCount, outputFile));
+//                                frameSaveTime += System.nanoTime() - startWhen;
+//                            }
+//                            decodeCount++;
                         }
                     }
                 }
             }
 
-            int numSaved = (MAX_FRAMES < decodeCount) ? MAX_FRAMES : decodeCount;
-            Log.d(TAG, "Saving " + numSaved + " frames took " +
-                    (frameSaveTime / numSaved / 1000) + " us per frame");
+//            int numSaved = (MAX_FRAMES < decodeCount) ? MAX_FRAMES : decodeCount;
+//            Log.d(TAG, "Saving " + numSaved + " frames took " +
+//                    (frameSaveTime / numSaved / 1000) + " us per frame");
         }
+    }
+
+    /**
+     * Prepares the off-screen framebuffer.
+     */
+    private void prepareFramebuffer(int width, int height) {
+        GlUtil.checkGlError("prepareFramebuffer start");
+
+        int[] values = new int[1];
+
+        // Create a texture object and bind it.  This will be the color buffer.
+        GLES20.glGenTextures(1, values, 0);
+        GlUtil.checkGlError("glGenTextures");
+        mOffscreenTexture = values[0];   // expected > 0
+        GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, mOffscreenTexture);
+        GlUtil.checkGlError("glBindTexture " + mOffscreenTexture);
+
+        // Create texture storage.
+        GLES20.glTexImage2D(GLES20.GL_TEXTURE_2D, 0, GLES20.GL_RGBA, width, height, 0,
+                GLES20.GL_RGBA, GLES20.GL_UNSIGNED_BYTE, null);
+
+        // Set parameters.  We're probably using non-power-of-two dimensions, so
+        // some values may not be available for use.
+        GLES20.glTexParameterf(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_MIN_FILTER,
+                GLES20.GL_NEAREST);
+        GLES20.glTexParameterf(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_MAG_FILTER,
+                GLES20.GL_LINEAR);
+        GLES20.glTexParameteri(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_WRAP_S,
+                GLES20.GL_CLAMP_TO_EDGE);
+        GLES20.glTexParameteri(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_WRAP_T,
+                GLES20.GL_CLAMP_TO_EDGE);
+        GlUtil.checkGlError("glTexParameter");
+
+        // Create framebuffer object and bind it.
+        GLES20.glGenFramebuffers(1, values, 0);
+        GlUtil.checkGlError("glGenFramebuffers");
+        mFramebuffer = values[0];    // expected > 0
+        GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, mFramebuffer);
+        GlUtil.checkGlError("glBindFramebuffer " + mFramebuffer);
+
+        // Attach the texture (color buffer) to the framebuffer object.
+        GlUtil.checkGlError("glFramebufferRenderbuffer");
+        GLES20.glFramebufferTexture2D(GLES20.GL_FRAMEBUFFER, GLES20.GL_COLOR_ATTACHMENT0,
+                GLES20.GL_TEXTURE_2D, mOffscreenTexture, 0);
+        GlUtil.checkGlError("glFramebufferTexture2D");
+
+        // See if GLES is happy with all this.
+        int status = GLES20.glCheckFramebufferStatus(GLES20.GL_FRAMEBUFFER);
+        if (status != GLES20.GL_FRAMEBUFFER_COMPLETE) {
+            throw new RuntimeException("Framebuffer not complete, status=" + status);
+        }
+
+        // Switch back to the default framebuffer.
+        GLES20.glBindFramebuffer(GLES20.GL_FRAMEBUFFER, 0);
+
+        GlUtil.checkGlError("prepareFramebuffer done");
     }
 }

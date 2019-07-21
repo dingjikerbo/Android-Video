@@ -2,7 +2,10 @@ package com.example.testvideoplay;
 
 import android.content.Context;
 import android.net.Uri;
+import android.opengl.GLES20;
+import android.opengl.GLES30;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
@@ -23,6 +26,10 @@ public class VideoSurfaceView extends BaseSurfaceView {
     private Uri mVideoUri;
 
     private CopyRender mCopyRender;
+    private int mTexture;
+
+    private int mSurfaceWidth;
+    private int mSurfaceHeight;
 
     public VideoSurfaceView(Context context) {
         super(context);
@@ -48,12 +55,24 @@ public class VideoSurfaceView extends BaseSurfaceView {
 
         mCopyRender = new CopyRender();
 
+        int[] textures = new int[1];
+        GLES20.glGenTextures(1, textures, 0);
+        mTexture = textures[0];
+
         String path = Utils.getVideoPathFromUri(getContext(), mVideoUri);
-        mMoviePlayer = new MoviePlayer(new File(path), mEglCore.getEGLContext());
+        mMoviePlayer = new MoviePlayer(new File(path), mEglCore.getEGLContext(), mTexture);
     }
 
     @Override
     public void onSurfaceChanged(int width, int height) {
+        mSurfaceWidth = width;
+        mSurfaceHeight = height;
+
+        GLES20.glClearColor(1.0f, 0.2f, 0.2f, 1.0f);
+        GLES20.glClear(GLES30.GL_COLOR_BUFFER_BIT);
+
+        GLES20.glViewport(0, 0, mSurfaceWidth, mSurfaceHeight);
+
         // 这个surface要有效之后才能设置给MoviePlayer，否则会抛异常
         // 这个surfaceChanged是跑在主线程的，所以play要放在一个子线程和做
         mMoviePlayer.play(mMoviePlayListener);
@@ -68,19 +87,16 @@ public class VideoSurfaceView extends BaseSurfaceView {
 
     private final MoviePlayer.MoviePlayListener mMoviePlayListener = new MoviePlayer.MoviePlayListener() {
 
-        private int mTextureId;
-
-        @Override
-        public void onOutputSurfaceCreated(final int texture) {
-            mTextureId = texture;
-        }
-
         @Override
         public void onDrawAvailable() {
             queueEvent(new Runnable() {
                 @Override
                 public void run() {
-                    mCopyRender.draw(mTextureId);
+                    Log.v("bush", String.format("onFrameAvailable at %s: %d", Thread.currentThread().getName(), mTexture));
+                    mWindowSurface.makeCurrent();
+
+                    mCopyRender.draw(mTexture);
+                    mWindowSurface.swapBuffers();
                 }
             });
         }

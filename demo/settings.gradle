@@ -1,1 +1,1 @@
-include ':app', ':library', ':testMediaMetadataRetriever', ':testMediaExtractor', ':testVideoPlay', ':testExtractAudio', 'testVideoPlay2'
+include ':app', ':library', ':testMediaMetadataRetriever', ':testMediaExtractor', ':testVideoPlay', ':testExtractAudio', ':testbitmap', 'testVideoPlay2'

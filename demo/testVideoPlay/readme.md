@@ -8,3 +8,5 @@ queueInputBuffer的时候会带一个presentationTime
 注意，每次codec输入一个buffer，就要输出一个buffer，这两个是同步的，不是异步相互独立的两个线程。
 
 这里面还有一个SpeedController控制播放速度，只有releaseOutputBuffer才会给buffer推送到surface上显示出来。
+
+这个不好的地方在于视频直接就渲染到surfaceView了，我们没法做一些别的处理，比如视频加滤镜或者字幕，如果要这样做，我们可以先创建一个离线surface，渲染好之后再绘制到屏幕上

@@ -5,21 +5,28 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.content.res.AssetManager;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.media.MediaExtractor;
 import android.net.Uri;
+import android.opengl.GLES20;
+import android.opengl.GLUtils;
 import android.os.Environment;
 import android.provider.MediaStore;
 import android.support.v4.app.ActivityCompat;
 import android.util.Log;
 import android.widget.Toast;
 
+import java.io.Closeable;
 import java.io.File;
 import java.io.FileDescriptor;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.InputStream;
 
 public class Utils {
 
@@ -79,7 +86,8 @@ public class Utils {
                 if (fis != null) {
                     fis.close();
                 }
-            } catch (Exception e) {}
+            } catch (Exception e) {
+            }
         }
         return extractor;
     }
@@ -90,5 +98,57 @@ public class Utils {
 
     public static MediaFormat getMediaFormat(MediaExtractor mediaExtractor, int trackIndex) {
         return MediaFormat.create(mediaExtractor.getTrackFormat(trackIndex));
+    }
+
+    public static int loadTexture(final Bitmap bitmap) {
+        final int[] textureHandle = new int[1];
+
+        GLES20.glGenTextures(1, textureHandle, 0);
+
+        if (textureHandle[0] != 0) {
+            // Bind to the texture in OpenGL
+            GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, textureHandle[0]);
+
+            // Set filtering
+            GLES20.glTexParameteri(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_MIN_FILTER, GLES20.GL_NEAREST);
+            GLES20.glTexParameteri(GLES20.GL_TEXTURE_2D, GLES20.GL_TEXTURE_MAG_FILTER, GLES20.GL_NEAREST);
+
+            // Load the bitmap into the bound texture.
+            GLUtils.texImage2D(GLES20.GL_TEXTURE_2D, 0, bitmap, 0);
+        }
+
+        if (textureHandle[0] == 0) {
+            throw new RuntimeException("Error loading texture.");
+        }
+
+        return textureHandle[0];
+    }
+
+    public static Bitmap loadAssetsBitmap(Context context, String path) {
+        AssetManager assetManager = context.getAssets();
+
+        InputStream istr = null;
+        Bitmap bitmap = null;
+
+        try {
+            istr = assetManager.open(path);
+            bitmap = BitmapFactory.decodeStream(istr);
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            close(istr);
+        }
+
+        return bitmap;
+    }
+
+    public static void close(Closeable c) {
+        if (c != null) {
+            try {
+                c.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
 }

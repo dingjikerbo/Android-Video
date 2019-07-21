@@ -221,6 +221,7 @@ public class CodecOutputSurface implements SurfaceTexture.OnFrameAvailableListen
      * @param invert if set, render the image with Y inverted (0,0 in top left)
      */
     public void drawImage(boolean invert) {
+        makeCurrent();
         mTextureRender.drawFrame(mSurfaceTexture, invert);
     }
 
