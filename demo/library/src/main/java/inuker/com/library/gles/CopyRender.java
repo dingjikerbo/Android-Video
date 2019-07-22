@@ -14,12 +14,14 @@ public class CopyRender {
 
     private static final String VERTEX_SHADER =
             "attribute vec4 a_Position;\n" +
-                    "attribute vec2 a_TextureCoordinates;\n" +
+                    "uniform mat4 uMVPMatrix;\n" +
+                    "uniform mat4 uTexMatrix;\n" +
+                    "attribute vec4 a_TextureCoordinates;\n" +
                     "varying vec2 v_TextureCoordinates;\n" +
                     "\n" +
                     "void main() {\n" +
-                    "    gl_Position =  a_Position;\n" +
-                    "    v_TextureCoordinates = a_TextureCoordinates;\n" +
+                    "    gl_Position = uMVPMatrix * a_Position;\n" +
+                    "    v_TextureCoordinates = (uTexMatrix * a_TextureCoordinates).xy;\n" +
                     "}";
 
     private static final String FRAGMENT_SHADER =
@@ -31,8 +33,6 @@ public class CopyRender {
                     "\n" +
                     "void main() {\n" +
                     "    gl_FragColor = texture2D(s_texture, v_TextureCoordinates);\n" +
-                    "\n" +
-                    "//    gl_FragColor = vec4(1.0, g, b, 1.0);\n" +
                     "}";
 
     private static final float FULL_RECTANGLE_COORDS[] = {
@@ -56,6 +56,8 @@ public class CopyRender {
 
     private final int aPositionLocation;
     private final int aTextureCoordinatesLocation;
+    private final int muTexMatrixLoc;
+    private final int muMVPMatrixLoc;
 
     private int mProgram;
 
@@ -70,6 +72,12 @@ public class CopyRender {
 
         aTextureCoordinatesLocation = GLES20.glGetAttribLocation(mProgram, "a_TextureCoordinates");
         GlUtil.checkLocation(aTextureCoordinatesLocation, "a_TextureCoordinates");
+
+        muTexMatrixLoc = GLES20.glGetUniformLocation(mProgram, "uTexMatrix");
+        GlUtil.checkLocation(muTexMatrixLoc, "uTexMatrix");
+
+        muMVPMatrixLoc = GLES20.glGetUniformLocation(mProgram, "uMVPMatrix");
+        GlUtil.checkLocation(muMVPMatrixLoc, "uMVPMatrix");
     }
 
     public void draw(int texture) {
@@ -85,6 +93,18 @@ public class CopyRender {
         GLES20.glActiveTexture(GLES20.GL_TEXTURE0);
         GLES20.glBindTexture(GLES20.GL_TEXTURE_2D, texture);
         GlUtil.checkGlError("glBindTexture " + texture);
+
+
+        float[] mvpMatrix = GlUtil.IDENTITY_MATRIX;
+        // Copy the model / view / projection matrix over.
+        GLES20.glUniformMatrix4fv(muMVPMatrixLoc, 1, false, mvpMatrix, 0);
+        GlUtil.checkGlError("glUniformMatrix4fv");
+
+
+        float[] texMatrix = GlUtil.IDENTITY_MATRIX;
+        // Copy the texture transformation matrix over.
+        GLES20.glUniformMatrix4fv(muTexMatrixLoc, 1, false, texMatrix, 0);
+        GlUtil.checkGlError("glUniformMatrix4fv");
 
         glEnableVertexAttribArray(aPositionLocation);
         glVertexAttribPointer(aPositionLocation, 2, GL_FLOAT, false, 8, FULL_RECTANGLE_BUF);
