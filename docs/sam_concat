@@ -1,0 +1,88 @@
+09-04 17:00:52.150 V: transcoder is VideoTranscoderPassThrough
+09-04 17:00:52.170 V: onStart
+09-04 17:00:52.180 V: transcoder start
+09-04 17:00:52.180 V: muxFuture start
+09-04 17:00:52.200 V: extractFuture start
+09-04 17:00:52.200 E: VideoTranscoderPassThrough.dequeueNextOutputBuffer: MediaBaseCodecBuffer{, mBufferIndex=-1, mBufferInfo=size=0, time=0us, flags=0, newOutputFormatAvailable=true}
+09-04 17:00:52.200 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=0, time=0us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.200 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=-1, mBufferInfo=size=0, time=0us, flags=0, newOutputFormatAvailable=true}
+09-04 17:00:52.200 V: >>> muxVideoFrame
+09-04 17:00:52.210 W: readSampleData size=28143, time=0us
+09-04 17:00:52.210 V: sampleFlags = 1
+09-04 17:00:52.500 E: VideoTranscoderPassThrough.dequeueNextOutputBuffer: null
+09-04 17:00:52.500 V: dequeueNextOutputBuffer null
+09-04 17:00:52.510 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=28143, time=0us, flags=1, newOutputFormatAvailable=false}
+09-04 17:00:52.510 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=0, time=0us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.510 W: readSampleData size=22373, time=133334us
+09-04 17:00:52.510 V: sampleFlags = 0
+09-04 17:00:52.510 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=22373, time=133334us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.510 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=0, time=0us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.510 W: readSampleData size=14775, time=66667us
+09-04 17:00:52.510 V: sampleFlags = 0
+09-04 17:00:52.510 E: VideoTranscoderPassThrough.dequeueNextOutputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=28143, time=0us, flags=1, newOutputFormatAvailable=false}
+09-04 17:00:52.510 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=28143, time=0us, flags=1, newOutputFormatAvailable=false}
+09-04 17:00:52.510 V: >>> muxVideoFrame
+09-04 17:00:52.510 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=14775, time=66667us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.510 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=0, time=0us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.510 W: readSampleData size=3768, time=33334us
+09-04 17:00:52.510 V: sampleFlags = 0
+09-04 17:00:52.510 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=3768, time=33334us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.510 V: onProgressChanged 0.00
+09-04 17:00:52.510 V: >>> before writeVideoSampleData
+09-04 17:00:52.510 V: --- go 5: PlatformBasedCodecMuxer
+09-04 17:00:52.510 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=0, time=0us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.510 W: readSampleData size=9905, time=100000us
+09-04 17:00:52.510 V: sampleFlags = 0
+09-04 17:00:52.510 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=9905, time=100000us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.520 V: ---- walk 0: index=0, info=android.media.MediaCodec$BufferInfo@9b666fe
+09-04 17:00:52.520 V: size=28143, time=0us, flags=1
+09-04 17:00:52.520 V: ---- walk 1
+09-04 17:00:52.520 V: --- go 6
+09-04 17:00:52.520 V: >>> after writeVideoSampleData
+09-04 17:00:52.520 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=28143, time=0us, flags=1, newOutputFormatAvailable=false}
+09-04 17:00:52.520 E: VideoTranscoderPassThrough.dequeueNextOutputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=22373, time=133334us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.520 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=22373, time=133334us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.520 V: >>> muxVideoFrame
+09-04 17:00:52.520 V: >>> before writeVideoSampleData
+09-04 17:00:52.520 W: readSampleData size=26190, time=266667us
+09-04 17:00:52.520 V: --- go 5: PlatformBasedCodecMuxer
+09-04 17:00:52.520 V: sampleFlags = 0
+09-04 17:00:52.520 V: ---- walk 0: index=0, info=android.media.MediaCodec$BufferInfo@c7f6e5f
+09-04 17:00:52.520 V: size=22373, time=133334us, flags=0
+09-04 17:00:52.520 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=26190, time=266667us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 V: ---- walk 1
+09-04 17:00:52.540 V: --- go 6
+09-04 17:00:52.540 V: >>> after writeVideoSampleData
+09-04 17:00:52.540 E: VideoTranscoderPassThrough.dequeueNextOutputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=14775, time=66667us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=22373, time=133334us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=14775, time=66667us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 V: >>> muxVideoFrame
+09-04 17:00:52.540 V: >>> before writeVideoSampleData
+09-04 17:00:52.540 W: readSampleData size=10938, time=200000us
+09-04 17:00:52.540 V: sampleFlags = 0
+09-04 17:00:52.540 V: --- go 5: PlatformBasedCodecMuxer
+09-04 17:00:52.540 V: ---- walk 0: index=0, info=android.media.MediaCodec$BufferInfo@25d20ac
+09-04 17:00:52.540 V: size=14775, time=66667us, flags=0
+09-04 17:00:52.540 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=10938, time=200000us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 V: ---- walk 1
+09-04 17:00:52.540 V: --- go 6
+09-04 17:00:52.540 V: >>> after writeVideoSampleData
+09-04 17:00:52.540 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=14775, time=66667us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 W: readSampleData size=6730, time=166667us
+09-04 17:00:52.540 V: sampleFlags = 0
+09-04 17:00:52.540 W: VideoTranscoderPassThrough.queueInputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=6730, time=166667us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 E: VideoTranscoderPassThrough.dequeueNextOutputBuffer: MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=3768, time=33334us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=3768, time=33334us, flags=0, newOutputFormatAvailable=false}
+09-04 17:00:52.540 V: >>> muxVideoFrame
+09-04 17:00:52.540 V: >>> before writeVideoSampleData
+09-04 17:00:52.540 V: --- go 5: PlatformBasedCodecMuxer
+09-04 17:00:52.540 V: ---- walk 0: index=0, info=android.media.MediaCodec$BufferInfo@2a38175
+09-04 17:00:52.540 V: size=3768, time=33334us, flags=0
+09-04 17:00:52.790 V: dequeueNextInputBuffer null
+09-04 17:00:53.040 V: dequeueNextInputBuffer null
+09-04 17:00:53.290 V: dequeueNextInputBuffer null
+09-04 17:00:53.540 V: dequeueNextInputBuffer null
+09-04 17:00:53.790 V: dequeueNextInputBuffer null
+09-04 17:00:54.040 V: dequeueNextInputBuffer null
+09-04 17:00:54.300 V: dequeueNextInputBuffer null
+09-04 17:00:54.550 V: dequeueNextInputBuffer null

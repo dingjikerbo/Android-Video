@@ -1,0 +1,797 @@
+09-04 16:59:55.390 V: transcoder is VideoTranscoderJBMR2
+09-04 16:59:55.490 V: extractFuture start
+09-04 16:59:55.490 V: transcoder start
+09-04 16:59:55.490 V: muxFuture start
+09-04 16:59:55.490 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.490 W: readSampleData size=28143, time=0us
+09-04 16:59:55.500 V: sampleFlags = 1
+09-04 16:59:55.500 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.500 W: readSampleData size=22373, time=133334us
+09-04 16:59:55.500 V: sampleFlags = 0
+09-04 16:59:55.500 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.500 W: readSampleData size=14775, time=66667us
+09-04 16:59:55.500 V: sampleFlags = 0
+09-04 16:59:55.570 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.570 W: readSampleData size=3768, time=33334us
+09-04 16:59:55.570 V: sampleFlags = 0
+09-04 16:59:55.570 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.570 W: readSampleData size=9905, time=100000us
+09-04 16:59:55.570 V: sampleFlags = 0
+09-04 16:59:55.580 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.580 W: readSampleData size=26190, time=266667us
+09-04 16:59:55.580 V: sampleFlags = 0
+09-04 16:59:55.580 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.580 W: readSampleData size=10938, time=200000us
+09-04 16:59:55.580 V: sampleFlags = 0
+09-04 16:59:55.590 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.590 W: readSampleData size=6730, time=166667us
+09-04 16:59:55.590 V: sampleFlags = 0
+09-04 16:59:55.590 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.590 W: readSampleData size=5983, time=233334us
+09-04 16:59:55.590 V: sampleFlags = 0
+09-04 16:59:55.600 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.600 W: readSampleData size=18112, time=333334us
+09-04 16:59:55.600 V: sampleFlags = 0
+09-04 16:59:55.600 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.600 W: readSampleData size=5168, time=300000us
+09-04 16:59:55.600 V: sampleFlags = 0
+09-04 16:59:55.600 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.600 W: readSampleData size=13173, time=433334us
+09-04 16:59:55.600 V: sampleFlags = 0
+09-04 16:59:55.600 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.610 W: readSampleData size=3613, time=366667us
+09-04 16:59:55.610 V: sampleFlags = 0
+09-04 16:59:55.610 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.610 W: readSampleData size=2608, time=400000us
+09-04 16:59:55.610 V: sampleFlags = 0
+09-04 16:59:55.610 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.610 W: readSampleData size=8786, time=500000us
+09-04 16:59:55.610 V: sampleFlags = 0
+09-04 16:59:55.620 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.620 W: readSampleData size=2212, time=466667us
+09-04 16:59:55.620 V: sampleFlags = 0
+09-04 16:59:55.620 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.620 W: readSampleData size=24099, time=633334us
+09-04 16:59:55.620 V: sampleFlags = 0
+09-04 16:59:55.660 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.660 W: readSampleData size=6182, time=566667us
+09-04 16:59:55.660 V: sampleFlags = 0
+09-04 16:59:55.660 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=-1, mBufferInfo=null, newOutputFormatAvailable=true}
+09-04 16:59:55.660 V: >>> muxVideoFrame
+09-04 16:59:55.670 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=27, time=0us, flags=2, newOutputFormatAvailable=false}
+09-04 16:59:55.670 V: >>> muxVideoFrame
+09-04 16:59:55.670 V: >>> before writeVideoSampleData
+09-04 16:59:55.670 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.670 V: --- go 6
+09-04 16:59:55.670 V: >>> after writeVideoSampleData
+09-04 16:59:55.680 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=35091, time=0us, flags=1, newOutputFormatAvailable=false}
+09-04 16:59:55.680 V: >>> muxVideoFrame
+09-04 16:59:55.680 V: >>> before writeVideoSampleData
+09-04 16:59:55.680 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.690 V: --- go 6
+09-04 16:59:55.690 V: >>> after writeVideoSampleData
+09-04 16:59:55.690 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.690 W: readSampleData size=2587, time=533334us
+09-04 16:59:55.690 V: sampleFlags = 0
+09-04 16:59:55.700 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=10149, time=33334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.700 V: >>> muxVideoFrame
+09-04 16:59:55.700 V: >>> before writeVideoSampleData
+09-04 16:59:55.700 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.700 V: --- go 6
+09-04 16:59:55.700 V: >>> after writeVideoSampleData
+09-04 16:59:55.710 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.710 W: readSampleData size=11730, time=600000us
+09-04 16:59:55.710 V: sampleFlags = 0
+09-04 16:59:55.720 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=29463, time=66667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.720 V: >>> muxVideoFrame
+09-04 16:59:55.720 V: >>> before writeVideoSampleData
+09-04 16:59:55.720 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.720 V: --- go 6
+09-04 16:59:55.720 V: >>> after writeVideoSampleData
+09-04 16:59:55.720 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.730 W: readSampleData size=24664, time=733334us
+09-04 16:59:55.730 V: sampleFlags = 0
+09-04 16:59:55.740 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=17826, time=100000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.740 V: >>> muxVideoFrame
+09-04 16:59:55.740 V: >>> before writeVideoSampleData
+09-04 16:59:55.740 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.740 V: --- go 6
+09-04 16:59:55.740 V: >>> after writeVideoSampleData
+09-04 16:59:55.740 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.740 W: readSampleData size=10821, time=666667us
+09-04 16:59:55.740 V: sampleFlags = 0
+09-04 16:59:55.750 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=11689, time=133334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.760 V: >>> muxVideoFrame
+09-04 16:59:55.760 V: >>> before writeVideoSampleData
+09-04 16:59:55.760 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.760 V: --- go 6
+09-04 16:59:55.760 V: >>> after writeVideoSampleData
+09-04 16:59:55.760 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.760 W: readSampleData size=7592, time=700000us
+09-04 16:59:55.760 V: sampleFlags = 0
+09-04 16:59:55.770 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=9136, time=166667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.770 V: >>> muxVideoFrame
+09-04 16:59:55.770 V: >>> before writeVideoSampleData
+09-04 16:59:55.770 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.770 V: --- go 6
+09-04 16:59:55.770 V: >>> after writeVideoSampleData
+09-04 16:59:55.770 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.780 W: readSampleData size=10083, time=766667us
+09-04 16:59:55.780 V: sampleFlags = 0
+09-04 16:59:55.790 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=9344, time=200000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.790 V: >>> muxVideoFrame
+09-04 16:59:55.790 V: >>> before writeVideoSampleData
+09-04 16:59:55.790 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.790 V: --- go 6
+09-04 16:59:55.790 V: >>> after writeVideoSampleData
+09-04 16:59:55.800 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.800 W: readSampleData size=22949, time=833334us
+09-04 16:59:55.800 V: sampleFlags = 0
+09-04 16:59:55.810 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=9989, time=233334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.810 V: >>> muxVideoFrame
+09-04 16:59:55.810 V: >>> before writeVideoSampleData
+09-04 16:59:55.810 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.810 V: --- go 6
+09-04 16:59:55.810 V: >>> after writeVideoSampleData
+09-04 16:59:55.810 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.810 W: readSampleData size=2629, time=800000us
+09-04 16:59:55.810 V: sampleFlags = 0
+09-04 16:59:55.830 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=11639, time=266667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.830 V: >>> muxVideoFrame
+09-04 16:59:55.830 V: >>> before writeVideoSampleData
+09-04 16:59:55.830 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.830 V: --- go 6
+09-04 16:59:55.830 V: >>> after writeVideoSampleData
+09-04 16:59:55.830 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.830 W: readSampleData size=19481, time=900000us
+09-04 16:59:55.830 V: sampleFlags = 0
+09-04 16:59:55.850 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=10120, time=300000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.850 V: >>> muxVideoFrame
+09-04 16:59:55.850 V: >>> before writeVideoSampleData
+09-04 16:59:55.850 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.850 V: --- go 6
+09-04 16:59:55.850 V: >>> after writeVideoSampleData
+09-04 16:59:55.850 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.850 W: readSampleData size=2810, time=866667us
+09-04 16:59:55.850 V: sampleFlags = 0
+09-04 16:59:55.860 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=15370, time=333334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.860 V: >>> muxVideoFrame
+09-04 16:59:55.860 V: >>> before writeVideoSampleData
+09-04 16:59:55.860 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.860 V: --- go 6
+09-04 16:59:55.860 V: >>> after writeVideoSampleData
+09-04 16:59:55.870 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.870 W: readSampleData size=28896, time=1033334us
+09-04 16:59:55.870 V: sampleFlags = 0
+09-04 16:59:55.880 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=6088, time=366667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.880 V: >>> muxVideoFrame
+09-04 16:59:55.880 V: >>> before writeVideoSampleData
+09-04 16:59:55.880 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.880 V: --- go 6
+09-04 16:59:55.880 V: >>> after writeVideoSampleData
+09-04 16:59:55.890 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.890 W: readSampleData size=14762, time=966667us
+09-04 16:59:55.890 V: sampleFlags = 0
+09-04 16:59:55.900 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=19040, time=400000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.900 V: >>> muxVideoFrame
+09-04 16:59:55.900 V: >>> before writeVideoSampleData
+09-04 16:59:55.900 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.900 V: --- go 6
+09-04 16:59:55.900 V: >>> after writeVideoSampleData
+09-04 16:59:55.900 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.900 W: readSampleData size=3110, time=933334us
+09-04 16:59:55.900 V: sampleFlags = 0
+09-04 16:59:55.920 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=6068, time=433334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.920 V: >>> muxVideoFrame
+09-04 16:59:55.920 V: >>> before writeVideoSampleData
+09-04 16:59:55.920 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.920 V: --- go 6
+09-04 16:59:55.920 V: >>> after writeVideoSampleData
+09-04 16:59:55.920 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.920 W: readSampleData size=4522, time=1000000us
+09-04 16:59:55.920 V: sampleFlags = 0
+09-04 16:59:55.940 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=19327, time=466667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.940 V: >>> muxVideoFrame
+09-04 16:59:55.940 V: >>> before writeVideoSampleData
+09-04 16:59:55.940 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.940 V: --- go 6
+09-04 16:59:55.940 V: >>> after writeVideoSampleData
+09-04 16:59:55.940 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.940 W: readSampleData size=7426, time=1066667us
+09-04 16:59:55.940 V: sampleFlags = 0
+09-04 16:59:55.950 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=6208, time=500000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.950 V: >>> muxVideoFrame
+09-04 16:59:55.950 V: >>> before writeVideoSampleData
+09-04 16:59:55.950 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.950 V: --- go 6
+09-04 16:59:55.950 V: >>> after writeVideoSampleData
+09-04 16:59:55.960 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.960 W: readSampleData size=6848, time=1100000us
+09-04 16:59:55.960 V: sampleFlags = 0
+09-04 16:59:55.970 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=10162, time=533334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.970 V: >>> muxVideoFrame
+09-04 16:59:55.980 V: >>> before writeVideoSampleData
+09-04 16:59:55.980 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:55.980 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:55.980 V: --- go 6
+09-04 16:59:55.980 V: >>> after writeVideoSampleData
+09-04 16:59:55.980 W: readSampleData size=23708, time=1200000us
+09-04 16:59:55.980 V: sampleFlags = 0
+09-04 16:59:55.990 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=9426, time=566667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:55.990 V: >>> muxVideoFrame
+09-04 16:59:55.990 V: >>> before writeVideoSampleData
+09-04 16:59:55.990 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.000 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.000 W: readSampleData size=6862, time=1133334us
+09-04 16:59:56.000 V: sampleFlags = 0
+09-04 16:59:56.000 V: --- go 6
+09-04 16:59:56.000 V: >>> after writeVideoSampleData
+09-04 16:59:56.010 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=28624, time=600000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.010 V: >>> muxVideoFrame
+09-04 16:59:56.010 V: >>> before writeVideoSampleData
+09-04 16:59:56.010 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.010 V: --- go 6
+09-04 16:59:56.010 V: >>> after writeVideoSampleData
+09-04 16:59:56.010 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.010 W: readSampleData size=3091, time=1166667us
+09-04 16:59:56.010 V: sampleFlags = 0
+09-04 16:59:56.030 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=16213, time=633334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.030 V: >>> muxVideoFrame
+09-04 16:59:56.030 V: >>> before writeVideoSampleData
+09-04 16:59:56.030 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.030 V: --- go 6
+09-04 16:59:56.030 V: >>> after writeVideoSampleData
+09-04 16:59:56.030 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.040 W: readSampleData size=23025, time=1266667us
+09-04 16:59:56.040 V: sampleFlags = 0
+09-04 16:59:56.040 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=8758, time=666667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.040 V: >>> muxVideoFrame
+09-04 16:59:56.040 V: >>> before writeVideoSampleData
+09-04 16:59:56.050 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.050 V: --- go 6
+09-04 16:59:56.050 V: >>> after writeVideoSampleData
+09-04 16:59:56.050 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.050 W: readSampleData size=2871, time=1233334us
+09-04 16:59:56.050 V: sampleFlags = 0
+09-04 16:59:56.060 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=7498, time=700000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.060 V: >>> muxVideoFrame
+09-04 16:59:56.060 V: >>> before writeVideoSampleData
+09-04 16:59:56.060 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.070 V: --- go 6
+09-04 16:59:56.070 V: >>> after writeVideoSampleData
+09-04 16:59:56.070 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.070 W: readSampleData size=24252, time=1366667us
+09-04 16:59:56.070 V: sampleFlags = 0
+09-04 16:59:56.090 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=7318, time=733334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.090 V: >>> muxVideoFrame
+09-04 16:59:56.090 V: >>> before writeVideoSampleData
+09-04 16:59:56.090 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.090 V: --- go 6
+09-04 16:59:56.090 V: >>> after writeVideoSampleData
+09-04 16:59:56.090 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.090 W: readSampleData size=3318, time=1300000us
+09-04 16:59:56.090 V: sampleFlags = 0
+09-04 16:59:56.100 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=7402, time=766667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.100 V: >>> muxVideoFrame
+09-04 16:59:56.100 V: >>> before writeVideoSampleData
+09-04 16:59:56.100 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.100 V: --- go 6
+09-04 16:59:56.100 V: >>> after writeVideoSampleData
+09-04 16:59:56.110 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.110 W: readSampleData size=2421, time=1333334us
+09-04 16:59:56.110 V: sampleFlags = 0
+09-04 16:59:56.120 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=12902, time=800000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.120 V: >>> muxVideoFrame
+09-04 16:59:56.120 V: >>> before writeVideoSampleData
+09-04 16:59:56.120 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.120 V: --- go 6
+09-04 16:59:56.120 V: >>> after writeVideoSampleData
+09-04 16:59:56.130 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.130 W: readSampleData size=11166, time=1400000us
+09-04 16:59:56.130 V: sampleFlags = 0
+09-04 16:59:56.140 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=3838, time=833334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.140 V: >>> muxVideoFrame
+09-04 16:59:56.140 V: >>> before writeVideoSampleData
+09-04 16:59:56.140 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.140 V: --- go 6
+09-04 16:59:56.140 V: >>> after writeVideoSampleData
+09-04 16:59:56.190 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=14709, time=866667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.190 V: >>> muxVideoFrame
+09-04 16:59:56.190 V: >>> before writeVideoSampleData
+09-04 16:59:56.190 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.190 V: --- go 6
+09-04 16:59:56.190 V: >>> after writeVideoSampleData
+09-04 16:59:56.190 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.200 W: readSampleData size=19466, time=1466667us
+09-04 16:59:56.200 V: sampleFlags = 0
+09-04 16:59:56.220 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.220 W: readSampleData size=1799, time=1433334us
+09-04 16:59:56.220 V: sampleFlags = 0
+09-04 16:59:56.230 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=5339, time=900000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.230 V: >>> muxVideoFrame
+09-04 16:59:56.230 V: >>> before writeVideoSampleData
+09-04 16:59:56.230 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.230 V: --- go 6
+09-04 16:59:56.230 V: >>> after writeVideoSampleData
+09-04 16:59:56.240 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.240 W: readSampleData size=27706, time=1566667us
+09-04 16:59:56.240 V: sampleFlags = 0
+09-04 16:59:56.250 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=10428, time=933334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.250 V: >>> muxVideoFrame
+09-04 16:59:56.250 V: >>> before writeVideoSampleData
+09-04 16:59:56.260 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.260 V: --- go 6
+09-04 16:59:56.260 V: >>> after writeVideoSampleData
+09-04 16:59:56.260 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.260 W: readSampleData size=2808, time=1500000us
+09-04 16:59:56.260 V: sampleFlags = 0
+09-04 16:59:56.270 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=6165, time=966667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.270 V: >>> muxVideoFrame
+09-04 16:59:56.270 V: >>> before writeVideoSampleData
+09-04 16:59:56.270 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.270 V: --- go 6
+09-04 16:59:56.270 V: >>> after writeVideoSampleData
+09-04 16:59:56.280 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.280 W: readSampleData size=2122, time=1533334us
+09-04 16:59:56.280 V: sampleFlags = 0
+09-04 16:59:56.290 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.290 W: readSampleData size=23345, time=1666667us
+09-04 16:59:56.290 V: sampleFlags = 0
+09-04 16:59:56.290 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=13096, time=1000000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.290 V: >>> muxVideoFrame
+09-04 16:59:56.290 V: >>> before writeVideoSampleData
+09-04 16:59:56.290 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.290 V: --- go 6
+09-04 16:59:56.290 V: >>> after writeVideoSampleData
+09-04 16:59:56.300 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=10113, time=1033334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.300 V: >>> muxVideoFrame
+09-04 16:59:56.300 V: >>> before writeVideoSampleData
+09-04 16:59:56.310 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.310 V: --- go 6
+09-04 16:59:56.310 V: >>> after writeVideoSampleData
+09-04 16:59:56.310 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.310 W: readSampleData size=2485, time=1600000us
+09-04 16:59:56.310 V: sampleFlags = 0
+09-04 16:59:56.320 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=15223, time=1066667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.330 V: >>> muxVideoFrame
+09-04 16:59:56.330 V: >>> before writeVideoSampleData
+09-04 16:59:56.330 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.330 V: --- go 6
+09-04 16:59:56.330 V: >>> after writeVideoSampleData
+09-04 16:59:56.330 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.330 W: readSampleData size=1899, time=1633334us
+09-04 16:59:56.330 V: sampleFlags = 0
+09-04 16:59:56.340 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=10897, time=1100000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.340 V: >>> muxVideoFrame
+09-04 16:59:56.340 V: >>> before writeVideoSampleData
+09-04 16:59:56.340 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.340 V: --- go 6
+09-04 16:59:56.340 V: >>> after writeVideoSampleData
+09-04 16:59:56.350 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.350 W: readSampleData size=21070, time=1733334us
+09-04 16:59:56.350 V: sampleFlags = 0
+09-04 16:59:56.360 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=16706, time=1133334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.360 V: >>> muxVideoFrame
+09-04 16:59:56.360 V: >>> before writeVideoSampleData
+09-04 16:59:56.360 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.360 V: --- go 6
+09-04 16:59:56.360 V: >>> after writeVideoSampleData
+09-04 16:59:56.370 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.370 W: readSampleData size=3023, time=1700000us
+09-04 16:59:56.370 V: sampleFlags = 0
+09-04 16:59:56.380 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=12098, time=1166667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.380 V: >>> muxVideoFrame
+09-04 16:59:56.380 V: >>> before writeVideoSampleData
+09-04 16:59:56.380 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.380 V: --- go 6
+09-04 16:59:56.380 V: >>> after writeVideoSampleData
+09-04 16:59:56.380 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.380 W: readSampleData size=7369, time=1800000us
+09-04 16:59:56.380 V: sampleFlags = 0
+09-04 16:59:56.400 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=17191, time=1200000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.400 V: >>> muxVideoFrame
+09-04 16:59:56.400 V: >>> before writeVideoSampleData
+09-04 16:59:56.400 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.400 V: --- go 6
+09-04 16:59:56.400 V: >>> after writeVideoSampleData
+09-04 16:59:56.400 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.400 W: readSampleData size=3112, time=1766667us
+09-04 16:59:56.400 V: sampleFlags = 0
+09-04 16:59:56.420 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.420 W: readSampleData size=21158, time=1933334us
+09-04 16:59:56.420 V: sampleFlags = 0
+09-04 16:59:56.420 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=12049, time=1233334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.420 V: >>> muxVideoFrame
+09-04 16:59:56.420 V: >>> before writeVideoSampleData
+09-04 16:59:56.420 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.420 V: --- go 6
+09-04 16:59:56.420 V: >>> after writeVideoSampleData
+09-04 16:59:56.430 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=15525, time=1266667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.430 V: >>> muxVideoFrame
+09-04 16:59:56.430 V: >>> before writeVideoSampleData
+09-04 16:59:56.430 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.430 V: --- go 6
+09-04 16:59:56.430 V: >>> after writeVideoSampleData
+09-04 16:59:56.440 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.440 W: readSampleData size=3087, time=1866667us
+09-04 16:59:56.440 V: sampleFlags = 0
+09-04 16:59:56.450 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=13025, time=1300000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.450 V: >>> muxVideoFrame
+09-04 16:59:56.450 V: >>> before writeVideoSampleData
+09-04 16:59:56.450 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.450 V: --- go 6
+09-04 16:59:56.450 V: >>> after writeVideoSampleData
+09-04 16:59:56.460 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.460 W: readSampleData size=1125, time=1833334us
+09-04 16:59:56.460 V: sampleFlags = 0
+09-04 16:59:56.470 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=11502, time=1333334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.470 V: >>> muxVideoFrame
+09-04 16:59:56.470 V: >>> before writeVideoSampleData
+09-04 16:59:56.470 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.470 V: --- go 6
+09-04 16:59:56.470 V: >>> after writeVideoSampleData
+09-04 16:59:56.470 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.470 W: readSampleData size=1155, time=1900000us
+09-04 16:59:56.480 V: sampleFlags = 0
+09-04 16:59:56.490 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=13598, time=1366667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.490 V: >>> muxVideoFrame
+09-04 16:59:56.490 V: >>> before writeVideoSampleData
+09-04 16:59:56.490 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.490 V: --- go 6
+09-04 16:59:56.490 V: >>> after writeVideoSampleData
+09-04 16:59:56.490 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.490 W: readSampleData size=32129, time=2066667us
+09-04 16:59:56.490 V: sampleFlags = 0
+09-04 16:59:56.500 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=15653, time=1400000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.500 V: >>> muxVideoFrame
+09-04 16:59:56.500 V: >>> before writeVideoSampleData
+09-04 16:59:56.510 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.510 V: --- go 6
+09-04 16:59:56.510 V: >>> after writeVideoSampleData
+09-04 16:59:56.510 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.510 W: readSampleData size=3899, time=2000000us
+09-04 16:59:56.510 V: sampleFlags = 0
+09-04 16:59:56.520 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=13534, time=1433334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.520 V: >>> muxVideoFrame
+09-04 16:59:56.520 V: >>> before writeVideoSampleData
+09-04 16:59:56.520 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.520 V: --- go 6
+09-04 16:59:56.520 V: >>> after writeVideoSampleData
+09-04 16:59:56.530 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.530 W: readSampleData size=1742, time=1966667us
+09-04 16:59:56.530 V: sampleFlags = 0
+09-04 16:59:56.540 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=14886, time=1466667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.540 V: >>> muxVideoFrame
+09-04 16:59:56.540 V: >>> before writeVideoSampleData
+09-04 16:59:56.550 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.550 V: --- go 6
+09-04 16:59:56.550 V: >>> after writeVideoSampleData
+09-04 16:59:56.550 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.550 W: readSampleData size=1067, time=2033334us
+09-04 16:59:56.550 V: sampleFlags = 0
+09-04 16:59:56.560 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=20502, time=1500000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.560 V: >>> muxVideoFrame
+09-04 16:59:56.560 V: >>> before writeVideoSampleData
+09-04 16:59:56.560 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.560 V: --- go 6
+09-04 16:59:56.560 V: >>> after writeVideoSampleData
+09-04 16:59:56.570 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.570 W: readSampleData size=12094, time=2200000us
+09-04 16:59:56.570 V: sampleFlags = 0
+09-04 16:59:56.580 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=4228, time=1533334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.580 V: >>> muxVideoFrame
+09-04 16:59:56.580 V: >>> before writeVideoSampleData
+09-04 16:59:56.580 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.580 V: --- go 6
+09-04 16:59:56.580 V: >>> after writeVideoSampleData
+09-04 16:59:56.590 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.590 W: readSampleData size=2331, time=2133334us
+09-04 16:59:56.590 V: sampleFlags = 0
+09-04 16:59:56.600 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=14557, time=1566667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.600 V: >>> muxVideoFrame
+09-04 16:59:56.600 V: >>> before writeVideoSampleData
+09-04 16:59:56.600 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.610 V: --- go 6
+09-04 16:59:56.610 V: >>> after writeVideoSampleData
+09-04 16:59:56.610 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.610 W: readSampleData size=954, time=2100000us
+09-04 16:59:56.610 V: sampleFlags = 0
+09-04 16:59:56.620 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=32744, time=1600000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.620 V: >>> muxVideoFrame
+09-04 16:59:56.620 V: >>> before writeVideoSampleData
+09-04 16:59:56.620 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.620 V: --- go 6
+09-04 16:59:56.620 V: >>> after writeVideoSampleData
+09-04 16:59:56.630 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.630 W: readSampleData size=1268, time=2166667us
+09-04 16:59:56.630 V: sampleFlags = 0
+09-04 16:59:56.640 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=3664, time=1633334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.640 V: >>> muxVideoFrame
+09-04 16:59:56.640 V: >>> before writeVideoSampleData
+09-04 16:59:56.640 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.640 V: --- go 6
+09-04 16:59:56.640 V: >>> after writeVideoSampleData
+09-04 16:59:56.650 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.650 W: readSampleData size=14618, time=2333334us
+09-04 16:59:56.650 V: sampleFlags = 0
+09-04 16:59:56.660 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=2844, time=1666667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.660 V: >>> muxVideoFrame
+09-04 16:59:56.660 V: >>> before writeVideoSampleData
+09-04 16:59:56.660 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.660 V: --- go 6
+09-04 16:59:56.660 V: >>> after writeVideoSampleData
+09-04 16:59:56.660 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.660 W: readSampleData size=2786, time=2266667us
+09-04 16:59:56.660 V: sampleFlags = 0
+09-04 16:59:56.680 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=28252, time=1700000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.680 V: >>> muxVideoFrame
+09-04 16:59:56.680 V: >>> before writeVideoSampleData
+09-04 16:59:56.680 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.680 V: --- go 6
+09-04 16:59:56.680 V: >>> after writeVideoSampleData
+09-04 16:59:56.680 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.680 W: readSampleData size=1102, time=2233334us
+09-04 16:59:56.680 V: sampleFlags = 0
+09-04 16:59:56.700 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.700 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=4637, time=1733334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.700 V: >>> muxVideoFrame
+09-04 16:59:56.700 V: >>> before writeVideoSampleData
+09-04 16:59:56.700 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.700 V: --- go 6
+09-04 16:59:56.700 V: >>> after writeVideoSampleData
+09-04 16:59:56.700 W: readSampleData size=987, time=2300000us
+09-04 16:59:56.700 V: sampleFlags = 0
+09-04 16:59:56.710 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=5636, time=1766667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.710 V: >>> muxVideoFrame
+09-04 16:59:56.710 V: >>> before writeVideoSampleData
+09-04 16:59:56.710 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.710 V: --- go 6
+09-04 16:59:56.710 V: >>> after writeVideoSampleData
+09-04 16:59:56.720 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.720 W: readSampleData size=13548, time=2466667us
+09-04 16:59:56.720 V: sampleFlags = 0
+09-04 16:59:56.730 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=13653, time=1800000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.730 V: >>> muxVideoFrame
+09-04 16:59:56.730 V: >>> before writeVideoSampleData
+09-04 16:59:56.730 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.730 V: --- go 6
+09-04 16:59:56.730 V: >>> after writeVideoSampleData
+09-04 16:59:56.730 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.730 W: readSampleData size=2319, time=2400000us
+09-04 16:59:56.730 V: sampleFlags = 0
+09-04 16:59:56.750 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=11768, time=1833334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.750 V: >>> muxVideoFrame
+09-04 16:59:56.750 V: >>> before writeVideoSampleData
+09-04 16:59:56.750 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.750 V: --- go 6
+09-04 16:59:56.750 V: >>> after writeVideoSampleData
+09-04 16:59:56.750 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.750 W: readSampleData size=1127, time=2366667us
+09-04 16:59:56.750 V: sampleFlags = 0
+09-04 16:59:56.760 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=11434, time=1866667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.760 V: >>> muxVideoFrame
+09-04 16:59:56.760 V: >>> before writeVideoSampleData
+09-04 16:59:56.760 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.760 V: --- go 6
+09-04 16:59:56.760 V: >>> after writeVideoSampleData
+09-04 16:59:56.770 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.770 W: readSampleData size=1035, time=2433334us
+09-04 16:59:56.770 V: sampleFlags = 0
+09-04 16:59:56.780 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=5078, time=1900000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.780 V: >>> muxVideoFrame
+09-04 16:59:56.780 V: >>> before writeVideoSampleData
+09-04 16:59:56.780 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.780 V: --- go 6
+09-04 16:59:56.780 V: >>> after writeVideoSampleData
+09-04 16:59:56.790 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.790 W: readSampleData size=12993, time=2600000us
+09-04 16:59:56.790 V: sampleFlags = 0
+09-04 16:59:56.800 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=16623, time=1933334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.800 V: >>> muxVideoFrame
+09-04 16:59:56.800 V: >>> before writeVideoSampleData
+09-04 16:59:56.800 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.800 V: --- go 6
+09-04 16:59:56.800 V: >>> after writeVideoSampleData
+09-04 16:59:56.800 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.800 W: readSampleData size=2569, time=2533334us
+09-04 16:59:56.800 V: sampleFlags = 0
+09-04 16:59:56.820 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=9575, time=1966667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.820 V: >>> muxVideoFrame
+09-04 16:59:56.820 V: >>> before writeVideoSampleData
+09-04 16:59:56.820 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.820 V: --- go 6
+09-04 16:59:56.820 V: >>> after writeVideoSampleData
+09-04 16:59:56.820 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.820 W: readSampleData size=1226, time=2500000us
+09-04 16:59:56.820 V: sampleFlags = 0
+09-04 16:59:56.830 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=7686, time=2000000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.830 V: >>> muxVideoFrame
+09-04 16:59:56.830 V: >>> before writeVideoSampleData
+09-04 16:59:56.830 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.840 V: --- go 6
+09-04 16:59:56.840 V: >>> after writeVideoSampleData
+09-04 16:59:56.840 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.840 W: readSampleData size=1088, time=2566667us
+09-04 16:59:56.840 V: sampleFlags = 0
+09-04 16:59:56.860 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=28049, time=2033334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.860 V: >>> muxVideoFrame
+09-04 16:59:56.860 V: >>> before writeVideoSampleData
+09-04 16:59:56.860 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.860 V: --- go 6
+09-04 16:59:56.860 V: >>> after writeVideoSampleData
+09-04 16:59:56.860 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.860 W: readSampleData size=11775, time=2733334us
+09-04 16:59:56.860 V: sampleFlags = 0
+09-04 16:59:56.870 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=4352, time=2066667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.870 V: >>> muxVideoFrame
+09-04 16:59:56.870 V: >>> before writeVideoSampleData
+09-04 16:59:56.870 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.870 V: --- go 6
+09-04 16:59:56.870 V: >>> after writeVideoSampleData
+09-04 16:59:56.880 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.880 W: readSampleData size=2875, time=2666667us
+09-04 16:59:56.880 V: sampleFlags = 0
+09-04 16:59:56.890 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=8137, time=2100000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.890 V: >>> muxVideoFrame
+09-04 16:59:56.890 V: >>> before writeVideoSampleData
+09-04 16:59:56.890 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.890 V: --- go 6
+09-04 16:59:56.890 V: >>> after writeVideoSampleData
+09-04 16:59:56.900 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.900 W: readSampleData size=1140, time=2633334us
+09-04 16:59:56.900 V: sampleFlags = 0
+09-04 16:59:56.910 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=17895, time=2133334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.910 V: >>> muxVideoFrame
+09-04 16:59:56.910 V: >>> before writeVideoSampleData
+09-04 16:59:56.910 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.910 V: --- go 6
+09-04 16:59:56.910 V: >>> after writeVideoSampleData
+09-04 16:59:56.920 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.920 W: readSampleData size=1232, time=2700000us
+09-04 16:59:56.920 V: sampleFlags = 0
+09-04 16:59:56.930 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.930 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=10319, time=2166667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.930 V: >>> muxVideoFrame
+09-04 16:59:56.930 V: >>> before writeVideoSampleData
+09-04 16:59:56.930 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.930 W: readSampleData size=7281, time=2866667us
+09-04 16:59:56.930 V: sampleFlags = 0
+09-04 16:59:56.940 V: --- go 6
+09-04 16:59:56.940 V: >>> after writeVideoSampleData
+09-04 16:59:56.950 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=13402, time=2200000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.950 V: >>> muxVideoFrame
+09-04 16:59:56.950 V: >>> before writeVideoSampleData
+09-04 16:59:56.950 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.950 V: --- go 6
+09-04 16:59:56.950 V: >>> after writeVideoSampleData
+09-04 16:59:56.950 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.950 W: readSampleData size=3343, time=2800000us
+09-04 16:59:56.950 V: sampleFlags = 0
+09-04 16:59:56.970 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=15403, time=2233334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.970 V: >>> muxVideoFrame
+09-04 16:59:56.970 V: >>> before writeVideoSampleData
+09-04 16:59:56.970 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.970 V: --- go 6
+09-04 16:59:56.970 V: >>> after writeVideoSampleData
+09-04 16:59:56.970 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.970 W: readSampleData size=1365, time=2766667us
+09-04 16:59:56.970 V: sampleFlags = 0
+09-04 16:59:56.980 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=11921, time=2266667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:56.980 V: >>> muxVideoFrame
+09-04 16:59:56.980 V: >>> before writeVideoSampleData
+09-04 16:59:56.980 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:56.980 V: --- go 6
+09-04 16:59:56.980 V: >>> after writeVideoSampleData
+09-04 16:59:56.990 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:56.990 W: readSampleData size=1320, time=2833334us
+09-04 16:59:56.990 V: sampleFlags = 0
+09-04 16:59:57.000 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=15007, time=2300000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.000 V: >>> muxVideoFrame
+09-04 16:59:57.000 V: >>> before writeVideoSampleData
+09-04 16:59:57.000 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.000 V: --- go 6
+09-04 16:59:57.000 V: >>> after writeVideoSampleData
+09-04 16:59:57.010 V: dequeueNextInputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=null, newOutputFormatAvailable=false}
+09-04 16:59:57.010 W: readSampleData size=-1, time=-2us
+09-04 16:59:57.010 V: extractFuture finish
+09-04 16:59:57.020 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=9900, time=2333334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.020 V: >>> muxVideoFrame
+09-04 16:59:57.020 V: >>> before writeVideoSampleData
+09-04 16:59:57.020 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.020 V: --- go 6
+09-04 16:59:57.020 V: >>> after writeVideoSampleData
+09-04 16:59:57.040 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=14900, time=2366667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.040 V: >>> muxVideoFrame
+09-04 16:59:57.040 V: >>> before writeVideoSampleData
+09-04 16:59:57.040 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.040 V: --- go 6
+09-04 16:59:57.040 V: >>> after writeVideoSampleData
+09-04 16:59:57.060 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=10186, time=2400000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.060 V: >>> muxVideoFrame
+09-04 16:59:57.060 V: >>> before writeVideoSampleData
+09-04 16:59:57.060 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.070 V: --- go 6
+09-04 16:59:57.070 V: >>> after writeVideoSampleData
+09-04 16:59:57.080 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=15002, time=2433334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.080 V: >>> muxVideoFrame
+09-04 16:59:57.080 V: >>> before writeVideoSampleData
+09-04 16:59:57.080 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.080 V: --- go 6
+09-04 16:59:57.080 V: >>> after writeVideoSampleData
+09-04 16:59:57.100 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=14266, time=2466667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.100 V: >>> muxVideoFrame
+09-04 16:59:57.100 V: >>> before writeVideoSampleData
+09-04 16:59:57.100 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.100 V: --- go 6
+09-04 16:59:57.100 V: >>> after writeVideoSampleData
+09-04 16:59:57.120 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=14214, time=2500000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.120 V: >>> muxVideoFrame
+09-04 16:59:57.120 V: >>> before writeVideoSampleData
+09-04 16:59:57.120 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.120 V: --- go 6
+09-04 16:59:57.120 V: >>> after writeVideoSampleData
+09-04 16:59:57.140 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=9597, time=2533334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.140 V: >>> muxVideoFrame
+09-04 16:59:57.140 V: >>> before writeVideoSampleData
+09-04 16:59:57.140 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.140 V: --- go 6
+09-04 16:59:57.140 V: >>> after writeVideoSampleData
+09-04 16:59:57.160 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=14316, time=2566667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.160 V: >>> muxVideoFrame
+09-04 16:59:57.160 V: >>> before writeVideoSampleData
+09-04 16:59:57.160 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.160 V: --- go 6
+09-04 16:59:57.160 V: >>> after writeVideoSampleData
+09-04 16:59:57.180 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=11627, time=2600000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.180 V: >>> muxVideoFrame
+09-04 16:59:57.180 V: >>> before writeVideoSampleData
+09-04 16:59:57.180 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.180 V: --- go 6
+09-04 16:59:57.180 V: >>> after writeVideoSampleData
+09-04 16:59:57.190 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=0, mBufferInfo=size=15284, time=2633334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.190 V: >>> muxVideoFrame
+09-04 16:59:57.190 V: >>> before writeVideoSampleData
+09-04 16:59:57.190 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.190 V: --- go 6
+09-04 16:59:57.190 V: >>> after writeVideoSampleData
+09-04 16:59:57.210 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=1, mBufferInfo=size=8275, time=2666667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.210 V: >>> muxVideoFrame
+09-04 16:59:57.210 V: >>> before writeVideoSampleData
+09-04 16:59:57.210 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.210 V: --- go 6
+09-04 16:59:57.210 V: >>> after writeVideoSampleData
+09-04 16:59:57.230 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=2, mBufferInfo=size=13634, time=2700000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.230 V: >>> muxVideoFrame
+09-04 16:59:57.230 V: >>> before writeVideoSampleData
+09-04 16:59:57.230 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.230 V: --- go 6
+09-04 16:59:57.230 V: >>> after writeVideoSampleData
+09-04 16:59:57.250 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=3, mBufferInfo=size=13344, time=2733334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.250 V: >>> muxVideoFrame
+09-04 16:59:57.250 V: >>> before writeVideoSampleData
+09-04 16:59:57.250 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.250 V: --- go 6
+09-04 16:59:57.250 V: >>> after writeVideoSampleData
+09-04 16:59:57.270 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=4, mBufferInfo=size=12862, time=2766667us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.270 V: >>> muxVideoFrame
+09-04 16:59:57.270 V: >>> before writeVideoSampleData
+09-04 16:59:57.270 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.270 V: --- go 6
+09-04 16:59:57.270 V: >>> after writeVideoSampleData
+09-04 16:59:57.290 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=5, mBufferInfo=size=8169, time=2800000us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.290 V: >>> muxVideoFrame
+09-04 16:59:57.290 V: >>> before writeVideoSampleData
+09-04 16:59:57.290 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.290 V: --- go 6
+09-04 16:59:57.290 V: >>> after writeVideoSampleData
+09-04 16:59:57.290 V: transcoder finish
+09-04 16:59:57.300 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=6, mBufferInfo=size=11669, time=2833334us, flags=0, newOutputFormatAvailable=false}
+09-04 16:59:57.300 V: >>> muxVideoFrame
+09-04 16:59:57.300 V: >>> before writeVideoSampleData
+09-04 16:59:57.300 V: --- go 5: FFMpegBasedCodecMuxer
+09-04 16:59:57.300 V: --- go 6
+09-04 16:59:57.300 V: >>> after writeVideoSampleData
+09-04 16:59:57.310 V: dequeueNextOutputBuffer MediaBaseCodecBuffer{, mBufferIndex=7, mBufferInfo=size=0, time=0us, flags=4, newOutputFormatAvailable=false}
+09-04 16:59:57.310 V: >>> muxVideoFrame
+09-04 16:59:57.310 E: encoder end of stream
+09-04 16:59:57.310 V: muxFuture finish
